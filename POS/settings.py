@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '4t7h4%8!ux)2wae)gkt8pd^6c$c34f
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['morning-bayou-84939.herokuapp.com']
 
 
 # Application definition
